@@ -5,6 +5,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 
   @import url("https://use.fontawoseme.com/releases/v6.4.2/css/all.css");
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -92,7 +95,6 @@ color: black;
 .məs{
     padding: 15px;
     font-size: 15px;
-    color: red;
     background-color: black;
     margin-top: 15px;
     border: 2px solid black;
@@ -100,6 +102,10 @@ color: black;
     cursor: pointer;
     margin-left: 50px;
     
+}
+.məs a{
+    text-decoration: none;
+    color: red;
 }
 .məs:hover{
     background-color: transparent;
@@ -276,8 +282,138 @@ color: black;
                 background: #e46880;
             }
         }
-    } 
+    }
+    /*əlaqə-main */
+    .əlaqə-main{
+        font-family: 'Poppins', sans-serif;
+    }
+    .əlaqə{
+        position: relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: url(img/əlaqəbg.avif);
+        background-size: cover;
+    }
+    .əlaqə .məzmun{
+        max-width: 800px;
+        text-align: center;
 
-    
+    }
+    .əlaqə .məzmun h2{
+        font-size: 36px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .əlaqə .məzmun p{
+        
+        font-weight: 300;
+        color: #fff;
+    }
+    .əlaqə-main .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+    }
+    .əlaqə-main .container .əlaqəinfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .əlaqə-main .container .əlaqəinfo .box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+    .əlaqə-main .container .əlaqəinfo .box .əlaqə-ikon{
+        min-width: 60px;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+    .əlaqə-main .container .əlaqəinfo .box .əlaqə-yazı{
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #fff;
+        flex-direction: column;
+        font-weight: 300;
+    }
+    .əlaqə-main .container .əlaqəinfo .box .əlaqə-yazı h3{
+        font-weight: 500;
+        color: #00bcd4;
+    }
+    .əlaqə-form{
+        width: 40%;
+        padding: 40px;
+        background: #fff;        
+    }
+    .əlaqə-form h2{
+        font-size: 30px;
+        color: #333;
+        font-weight: 500;
+        
+    }
+    .əlaqə-form .inputbox{
+        position: relative;
+        width: 100%;
+        margin-top: 10px;       
+    }
+    .əlaqə-form .inputbox input, 
+    .əlaqə-form .inputbox textarea{
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: none;
+        resize: none;
+    }
+    .əlaqə-form .inputbox span{
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #666;
+    }
+    .əlaqə-form .inputbox input:focus ~ span,
+    .əlaqə-form .inputbox input:valid ~ span,
+    .əlaqə-form .inputbox textarea:focus ~ span,
+    .əlaqə-form .inputbox textarea:valid ~ span{
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+    .əlaqə-form .inputbox input[type="submit"]{
+        width: 100px;
+        background: #00bcd4;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        
+    }
+
+
+
+
+
+
 
 
