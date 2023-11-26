@@ -267,7 +267,7 @@ color: black;
                 background: #b33a2b;
             }
             &::after {
-                background: #b33a2b;
+                background: #9a3f33;
             }
         }
     }
@@ -280,6 +280,18 @@ color: black;
             }
             &::after {
                 background: #e46880;
+            }
+        }
+    }
+    .footer ul li:hover:nth-child(5){
+        & a {
+            background: #0c0c0c;
+
+            &::before {
+                background: #000000;
+            }
+            &::after {
+                background: #151515;
             }
         }
     }
@@ -409,6 +421,70 @@ color: black;
         font-size: 18px;
         
     }
+    /* müstəri */
+    .müstəri-main{
+        font-family: 'Montserrat', sans-serif ;
+    }
+    .müstəri-main .şərhlər{
+        padding: 40px 0;
+        background: #f1f1f1;
+        color: #434343;
+        text-align: center;
+
+    }
+    .müstəri-main .inner{
+        max-width: 1200px;
+        margin: auto;
+        overflow: hidden;
+        padding: 0 20px;
+
+    }
+    .müstəri-main .border{
+        width: 160px;
+        height: 5px;
+        background: #6ab04c;
+        margin: 26px auto;
+
+    }
+    .müstəri-main .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .müstəri-main .col{
+        flex: 33.33%;
+        max-width: 33.33%;
+        box-sizing: border-box;
+        padding: 15px;
+
+    }
+    .müstəri-main .şərh{
+        background: #fff;
+        padding: 30px;
+        
+    }
+    .müstəri-main .şərh img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+
+
+    }
+    .müstəri-main .ad{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 20px 0;
+    }
+    .müstəri-main .ulduzlar{
+        color: #6ab04c;
+        margin-bottom: 20px;
+        
+    }
+
+
+
+    
 
 
 
